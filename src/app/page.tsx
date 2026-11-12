@@ -23,6 +23,7 @@ import {
 import Image from "next/image";
 
 import { CircuitArtwork, ContactLinks, Navigation } from "@/components/site-interactions";
+import { ConsultationForm } from "@/components/consultation-form";
 import { TrainingProgression } from "@/components/training-progression";
 import { WorkflowFlow } from "@/components/workflow-flow";
 import { faqs, services, site, workSteps } from "@/lib/site-config";
@@ -459,6 +460,7 @@ function ContactCallout() {
             Canales oficiales
           </span>
           <ContactLinks variant="prominent" />
+          <ConsultationForm />
           <p className="contact-meetings">
             Si hace falta conversar, coordinamos una llamada por {site.contact.meetingOptions}
           </p>

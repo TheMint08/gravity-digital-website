@@ -1947,6 +1947,113 @@ svg {
   line-height: 1.55;
 }
 
+.consultation-form-wrap {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #393e49;
+}
+
+.consultation-form-heading {
+  margin: 0;
+  color: #fff;
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 580;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+
+.consultation-form-intro {
+  margin: 5px 0 0;
+  color: #b9bfcb;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.consultation-form {
+  display: grid;
+  gap: 13px;
+  margin-top: 16px;
+}
+
+.consultation-field {
+  display: grid;
+  gap: 5px;
+}
+
+.consultation-field label {
+  color: #f0f1f5;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.consultation-field label span {
+  color: #a9bcff;
+}
+
+.consultation-field input,
+.consultation-field select,
+.consultation-field textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 9px 11px;
+  border: 1px solid #747a86;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+}
+
+.consultation-field textarea {
+  min-height: 108px;
+  resize: vertical;
+}
+
+.consultation-field input:focus-visible,
+.consultation-field select:focus-visible,
+.consultation-field textarea:focus-visible {
+  outline: 3px solid #a9bcff;
+  outline-offset: 2px;
+}
+
+.consultation-honeypot {
+  position: absolute;
+  left: -10000px;
+}
+
+.consultation-feedback {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.consultation-feedback-success {
+  color: #b9f1ce;
+}
+
+.consultation-feedback-error {
+  color: #ffb8b2;
+}
+
+.consultation-fallback {
+  width: fit-content;
+  color: #d3ddff;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.consultation-submit {
+  width: 100%;
+  cursor: pointer;
+}
+
+.consultation-submit:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
 .site-footer {
   background: #fff;
 }
@@ -2742,6 +2849,10 @@ svg {
 
   .contact-card {
     padding: 17px;
+  }
+
+  .consultation-form-wrap {
+    margin-top: 18px;
   }
 
   .advice-scope {
