@@ -13,8 +13,8 @@ export const site = {
       label: "gravity-digital-contacto@gmail.com",
     },
     instagram: {
-      href: "https://instagram.com/gravity-digital",
-      label: "@gravity-digital",
+      href: "https://www.instagram.com/gravity_digitals.team/",
+      label: "@gravity_digitals.team",
     },
     meetingOptions: "Zoom, Google Meet o la plataforma que prefieras.",
   },
